@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: 16px;
+}
+ul, ol, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+label {
+  font-weight: bold;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 5px;
+
+}
+/*表单全局样式*/
+input {
+  font-size: 1.2rem;
+  font-weight: normal;
+  width: 100%;
+  /*height: 1.2rem;*/
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+textarea {
+  font-size: 1rem;
+  resize: none;
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  outline: none;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #00d1b2;
+}
+select {
+  outline: none;
+  /*height: 1.6rem;*/
+  line-height: 1.6rem;
+  padding: 5px;
+}
+/*表格全局样式*/
+table, th, td {
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+  vertical-align: middle;
+  /*border-collapse: collapse;*/
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+/*Button 标签全局样式*/
+button {
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.delete {
+  background-color: #ff3860;
+}
+button.modify {
+  background-color: #00d1b2;
+}
+button.add {
+  background-color: #23d160;
+}
+a.add {
+  /*width: 5rem;*/
+  /*display: block;*/
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #23d160;
+}
